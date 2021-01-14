@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.list,.list2 {
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.list .item3, .list2 .item3{
+    font-weight: bold;
+}
+
+.list li, .list2 {
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-top: 10px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol > li {
+    color: red;
+}
+
+.a {
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.a > .b {
+    width: 300px;
+    height: 300px;
+    background: green;
+}
+
+.a > .c {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
